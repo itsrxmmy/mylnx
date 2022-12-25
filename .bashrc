@@ -92,5 +92,6 @@ alias py="python"
 
 export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
 export PATH="$HOME/vcpkg:$PATH"
+export PATH="$HOME/bin:$PATH"
 
 . "$HOME/.cargo/env"
