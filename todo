@@ -1,8 +1,8 @@
 sudo pacman -Syyuu
-sudo pacman -S vim neovim go python cmake binutils nano flatpak discord mingw-w64-gcc git base-devel zsh flameshot
+sudo pacman -S vim neovim go python cmake binutils nano flatpak discord mingw-w64-gcc git base-devel zsh flameshot github-cli
 sudo pacman -S --needed base-devel
 
-mkdir learn projects work temp captures nasm-builds
+mkdir captures nasm-builds
 
 git clone https://aur.archlinux.org/yay.git
 cd yay
@@ -23,11 +23,17 @@ yay -S icu69-bin mingw-w64-tools snapd appimagelauncher visual-studio-code-bin g
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 
-
-
 git clone https://github.com/Microsoft/vcpkg.git
 ./vcpkg/bootstrap-vcpkg.sh
 
 
 https://www.nasm.us/ get nasm
+
+
+gh auth login
+
+git clone https://github.com/itsrxmmy/projects
+git clone https://github.com/itsrxmmy/work
+git clone https://github.com/itsrxmmy/tempdir ~/temp
+git clone https://github.com/itsrxmmy/otherstuff
 
