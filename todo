@@ -1,17 +1,21 @@
 sudo pacman -Syyuu
-sudo pacman -S vim neovim go python cmake binutils nano flatpak discord mingw-w64-gcc git base-devel zsh
+sudo pacman -S vim neovim go python cmake binutils nano flatpak discord mingw-w64-gcc git base-devel zsh flameshot
 sudo pacman -S --needed base-devel
 
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
 
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+cd
 
 go install golang.org/x/tools/cmd/goimports@latest
 go install golang.org/x/tools/gopls@latest
 
-yay -S icu69-bin mingw-w64-tools snapd appimagelauncher
+
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+
+yay -S icu69-bin mingw-w64-tools snapd appimagelauncher visual-studio-code-bin google-chrome
 
 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
