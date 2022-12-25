@@ -90,7 +90,7 @@ alias go-win32="env GOOS=windows GOARCH=386 go build package-import-path"
 alias cargo-win="cargo build --target x86_64-pc-windows-gnu"
 alias py="python"
 
-export PATH="$/home/linuxbrew/.linuxbrew/bin:$PATH"
+export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
 export PATH="$HOME/vcpkg:$PATH"
 
 . "$HOME/.cargo/env"
