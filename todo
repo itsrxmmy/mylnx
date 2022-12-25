@@ -22,3 +22,6 @@ yay -S icu69-bin mingw-w64-tools snapd appimagelauncher
 git clone https://github.com/Microsoft/vcpkg.git
 ./vcpkg/bootstrap-vcpkg.sh
 
+
+https://www.nasm.us/ get nasm
+
