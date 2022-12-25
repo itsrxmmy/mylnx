@@ -2,6 +2,8 @@ sudo pacman -Syyuu
 sudo pacman -S vim neovim go python cmake binutils nano flatpak discord mingw-w64-gcc git base-devel zsh flameshot
 sudo pacman -S --needed base-devel
 
+mkdir learn projects work temp captures nasm-builds
+
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
