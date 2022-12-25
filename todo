@@ -2,7 +2,7 @@ sudo pacman -Syyuu
 sudo pacman -S vim neovim go python cmake binutils nano flatpak discord mingw-w64-gcc git base-devel zsh flameshot github-cli fish
 sudo pacman -S --needed base-devel
 
-mkdir captures nasm-builds
+mkdir captures nasm-builds bin
 
 git clone https://aur.archlinux.org/yay.git
 cd yay
