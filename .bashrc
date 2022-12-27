@@ -85,6 +85,8 @@ _open_files_for_editing() {
 # alias pacdiff=eos-pacdiff
 ################################################################################
 
+
+
 alias win64-go="env GOOS=windows GOARCH=amd64 go build package-import-path"
 alias win32-go="env GOOS=windows GOARCH=386 go build package-import-path"
 alias win64-gcc="x86_64-w64-mingw32-gcc"
@@ -94,7 +96,10 @@ alias py="python"
 
 export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
 export PATH="$HOME/vcpkg:$PATH"
-export PATH="$HOME/bin:$PATH"
 export PATH="$HOME.local/bin:$PATH"
+export PATH="$HOME/bin:$PATH"
+export PATH="$HOME/projects/myutils/bin:$PATH"
+export PATH="$HOME/projects/myutils/ccpp-make-init/bin:$PATH"
 
 . "$HOME/.cargo/env"
+
