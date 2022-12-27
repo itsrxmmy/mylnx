@@ -100,6 +100,8 @@ export PATH="$HOME.local/bin:$PATH"
 export PATH="$HOME/bin:$PATH"
 export PATH="$HOME/projects/myutils/bin:$PATH"
 export PATH="$HOME/projects/myutils/ccpp-make-init/bin:$PATH"
+export PATH="$HOME/.npm-global/bin:$PATH"
+export PATH="$HOME/.local/bin:$PATH"
 
 . "$HOME/.cargo/env"
 
