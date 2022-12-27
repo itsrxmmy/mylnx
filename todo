@@ -17,7 +17,7 @@ go install golang.org/x/tools/gopls@latest
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 
-yay -S icu69-bin mingw-w64-tools snapd appimagelauncher visual-studio-code-bin google-chrome
+yay -S icu69-bin mingw-w64-tools snapd appimagelauncher visual-studio-code-bin google-chrome timeshift gparted
 
 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
