@@ -1,5 +1,5 @@
 sudo pacman -Syyuu
-sudo pacman -S vim neovim go python cmake binutils nano flatpak discord mingw-w64-gcc git base-devel zsh flameshot github-cli fish python-pip
+sudo pacman -S vim neovim go python cmake binutils nano flatpak discord mingw-w64-gcc git base-devel zsh flameshot github-cli fish python-pip npm nodejs
 sudo pacman -S --needed base-devel
 
 mkdir captures nasm-builds bin
@@ -21,6 +21,9 @@ yay -S icu69-bin mingw-w64-tools snapd appimagelauncher visual-studio-code-bin g
 
 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+
+sudo pacman -S curl zip unzip tar cmake ninja
 
 
 git clone https://github.com/Microsoft/vcpkg.git
