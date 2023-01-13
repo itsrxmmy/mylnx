@@ -2,7 +2,7 @@ sudo pacman -Syyuu
 sudo pacman -S vim neovim neovide go python cmake binutils nano flatpak discord mingw-w64-gcc git base-devel zsh flameshot github-cli fish python-pip npm nodejs readline
 sudo pacman -S --needed base-devel
 
-mkdir captures nasm-builds bin
+mkdir captures nasm-builds bin temp
 
 git clone https://aur.archlinux.org/yay.git
 cd yay
@@ -43,3 +43,8 @@ git clone https://github.com/itsrxmmy/otherstuff
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 
+cd ~
+git clone https://github.com/itsrxmmy/projects
+git clone https://github.com/itsrxmmy/work
+git clone https://github.com/itsrxmmy/otherstuff
+git clone https://github.com/itsrxmmy/tempdir ./temp
